@@ -102,7 +102,7 @@
                     <!-- Delete -->
                     <p class="control">
                         <a class="button is-danger" v-on:click="removeOperation(operation)">
-                            <span class="fa fa-times"></span>
+                            X
                         </a>
                     </p>
                 </div>

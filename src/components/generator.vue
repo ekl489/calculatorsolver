@@ -13,7 +13,7 @@
                 v-on:moves="setMoves"
                 v-on:goal="setGoal"
                 v-on:operations="setOperations">
-                </question_form>
+              </question_form>
             </div>
 
             <div class="column">
@@ -35,7 +35,8 @@
 
     export default {
         components: {
-            question_form, solutions
+            question_form,
+            solutions
         },
 
         data () {
